@@ -167,6 +167,10 @@ new Swiper('.sw-artist', {
         autoplay: {
             delay: 2000, 
         },
+    navigation: {
+        nextEl: '.sw-artist-next',
+        prevEl: '.sw-artist-prev',
+    },
     slidesPerView: 3,
     centeredSlides: true,
     mousewheel: false,
@@ -283,6 +287,7 @@ new Swiper('.mv-swiper', {
         prevEl: '.sw-video-prev',
     },
 })
+
 
 
 
